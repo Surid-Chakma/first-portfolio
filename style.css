@@ -74,13 +74,17 @@ nav a {
   max-width: 500px;
 }
 /* main content goes here */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about {
   /* border: 1px solid black; */
   padding: 130px;
   text-align: center;
   border-radius: 10px;
   background: #FFF8F3;
-  margin: 130px 230px;
+  margin: 130px 0px;
 }
 .section-title {
   color: #181818;
@@ -96,4 +100,16 @@ nav a {
   font-weight: 400;
   line-height: 30px;
   margin-top: 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info {
+    text-align: center;
+    font-size: 20px;
+}
+.info-description {
+    font-weight: bold;
 }
