@@ -113,3 +113,9 @@ main {
 .info-description {
     font-weight: bold;
 }
+#what-i-do-description {
+    padding: 30px 150px;
+}
+.skill-container {
+    display: flex;
+}
